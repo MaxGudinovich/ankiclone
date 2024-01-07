@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import MainLayout from './layouts/MainLayout.jsx';
 import AddDeck from './pages/addDeck/AddDeck.jsx';
@@ -9,7 +9,7 @@ import ShowDeck from './pages/showDeck/ShowDeck.jsx';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/ankiclone">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Main />} />
@@ -18,7 +18,7 @@ function App() {
             <Route path="/study" element={<ShowDeck />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

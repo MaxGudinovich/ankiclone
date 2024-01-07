@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainLayout />}>
+          <Route path="/ankiclone" element={<MainLayout />}>
             <Route index element={<Main />} />
             <Route path="/decks" element={<Main />} />
             <Route path="/add" element={<AddDeck />} />

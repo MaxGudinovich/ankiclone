@@ -9,9 +9,9 @@ import ShowDeck from './pages/showDeck/ShowDeck.jsx';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/ankiclone">
         <Routes>
-          <Route path="/ankiclone" element={<MainLayout />}>
+          <Route path="/" element={<MainLayout />}>
             <Route index element={<Main />} />
             <Route path="/decks" element={<Main />} />
             <Route path="/add" element={<AddDeck />} />

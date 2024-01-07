@@ -9,7 +9,7 @@ import ShowDeck from './pages/showDeck/ShowDeck.jsx';
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/ankiclone">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Main />} />

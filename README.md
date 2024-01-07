@@ -1,0 +1,2 @@
+# ankiclone
+Pet project

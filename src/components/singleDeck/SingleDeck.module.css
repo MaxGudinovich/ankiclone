@@ -1,0 +1,38 @@
+.singleDeck {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-wrap: break-word;
+  width: 100%;
+  min-height: 50px;
+  box-shadow: 0 0 2.5px black;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 0 30px 0 10px;
+  transition: 0.5s;
+}
+
+.singleDeck p {
+  width: 80%;
+}
+
+.singleDeck:hover {
+  background-color: lightgreen;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  background-color: slategray;
+  transition: 0.5s;
+}
+
+.deleteBtn:hover {
+  box-shadow: 0 0 2.5px black;
+  background-color: red;
+}

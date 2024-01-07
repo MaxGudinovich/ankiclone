@@ -1,0 +1,63 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 250px;
+}
+
+.singleContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  font-size: 23px;
+}
+
+.singleContainer p {
+  margin-right: 40px;
+}
+
+.inputWithDropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.singleContainer input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.singleContainer input:focus {
+  box-shadow: 0 0 5px black;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 50px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: lightslategray;
+  font-size: 20px;
+}
+
+.decksDropdown {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 10px;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.decksDropdown:hover {
+  background-color: lightgreen;
+}

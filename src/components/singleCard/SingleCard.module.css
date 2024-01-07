@@ -1,0 +1,42 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.nextBtn {
+  cursor: pointer;
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2.5px black;
+  font-size: 20px;
+}
+
+.showBackBtn {
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 25px;
+  height: 50px;
+  background-color: lightgreen;
+  border: none;
+  box-shadow: 0 0 2.5px black;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.showBackBtn:hover {
+  background-color: rgb(100, 227, 100);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 25px;
+}
